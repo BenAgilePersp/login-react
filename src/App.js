@@ -9,12 +9,12 @@ function App() {
     
     <div className="App">
       <React.Fragment>
-        <Container className="py-5 my-5 h-100 wrap" fluid>
+        <Container className="py-5 my-5 h-100 wrap" fluid> 
 
           <h3 className="display-2 fw-bold text-uppercase col-sm-12 col-md-3 col-xl-1 d-none d-sm-block">ebxc</h3>
           
           <Row className='d-flex justify-content-center'>
-            <Col md={9} xl={5} xxl={6}>
+            <Col md={9} xl={5} xxl={4}>
               <Card>
                 <main>
                   <Form>
@@ -58,7 +58,7 @@ function App() {
 
 
                         {/* Sign up */}
-                        <Row>
+                        <Row className='inline'>
                           <div className='sign-up mt-4 h6'>
                             Don't have an account?
                           </div>

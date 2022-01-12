@@ -4,11 +4,7 @@ body {
   height: inherit;
 }
 
-@media screen and (maxwidth:576px){
-}
-
 body {
-  display: flex;
   /*align-items: center;*/
   /*padding-top: 40px;
   padding-bottom: 40px; */
