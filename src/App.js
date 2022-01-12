@@ -9,13 +9,15 @@ function App() {
     
     <div className="App">
       <React.Fragment>
-        <Container className="py-5 my-5 h-100 wrap" fluid> 
+        <Container className="py-5 my-5 h-100 wrap"> 
 
+          <Col sm={12} md={3} xl={1}>
           <h3 className="display-2 fw-bold text-uppercase col-sm-12 col-md-3 col-xl-1 d-none d-sm-block">ebxc</h3>
-          
+          </Col>
+
           <Row className='d-flex justify-content-center'>
-            <Col md={9} xl={5} xxl={4}>
-              <Card>
+            <Col md={9} xl={5} xxl={4} className=''>
+              <Card className='p-5'>
                 <main>
                   <Form>
 
@@ -42,9 +44,7 @@ function App() {
 
                           <Col>
                             {/* Forgot Password */}
-                            <div className='link forgot-password'>
-                              Forgot Password
-                            </div>
+                            <CardLink href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Forgot Password</CardLink>
                           </Col>
                         </Row>
 
