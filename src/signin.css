@@ -1,0 +1,52 @@
+html,
+body {
+  width: inherit;
+  height: inherit;
+}
+
+@media screen and (maxwidth:576px){
+}
+
+body {
+  display: flex;
+  /*align-items: center;*/
+  /*padding-top: 40px;
+  padding-bottom: 40px; */
+  background-color: #f5f5f5;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("testpic.jpg");
+}
+
+.form-signin {
+  /*Used bootstrap preset margin and padding but a little undersized*/
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-style: inherit;
+  border-color: black;
+  box-shadow: 0px 5px 10px #3333331A;
+}
+
+
+.form-signin input{
+  font: normal normal normal 22px/30px Helvetica;
+  opacity: 0.7;
+}
+
+
+h1{
+  /*LOGIN*/
+  color: #43425D;
+}
+
+h2{
+  /*Welcome Message*/
+  color: #4D4F5C;
+  opacity: 0.5;
+}
+
+h3{
+  /*EBXC Logo*/
+  font: normal normal bold 70px/23px Helvetica;
+  position: absolute;
+  color: #43425D;
+  letter-spacing: 14px;
+}
