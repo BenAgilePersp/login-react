@@ -19,13 +19,12 @@ function App() {
             <Col md={9} xl={5} xxl={4} className=''>
               <Card className='p-5'>
                 <main>
-                  <Form>
 
                     {/*Login Message*/}
                     <h1 class="h2 login mt-5">LOGIN</h1>
                     <h2 class="h5 login-msg">Welcome back! Please login to your account</h2>
 
-                    <CardBody>
+                    <CardBody>  
                     
                       {/*Email and Password Input*/}
                       <Input type='email' className='form-control mb-4' id='floatingInput' placeholder='Email'/>
@@ -37,7 +36,7 @@ function App() {
                             {/* Remember Me */}
                             <div className='checkbox'>
                               <label>
-                                <Input type="checkbox" value="remember-me" id="remem-me"/> Remember Me
+                                <input type="checkbox" value="remember-me" id="remem-me"/> Remember Me
                               </label>
                             </div>
                           </Col>
@@ -67,7 +66,6 @@ function App() {
                     </CardBody>
 
                     
-                  </Form>
                 </main>
               </Card>
             </Col>

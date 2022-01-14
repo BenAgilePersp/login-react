@@ -16,19 +16,7 @@ body {
   background-size: cover;
 }
 
-.form-signin {
-  /*Used bootstrap preset margin and padding but a little undersized*/
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  border-style: inherit;
-  border-color: black;
-  box-shadow: 0px 5px 10px #3333331A;
-}
 
-
-.form-signin input{
-  font: normal normal normal 22px/30px Helvetica !important;
-  opacity: 0.7;
-}
 
 
 h1{
